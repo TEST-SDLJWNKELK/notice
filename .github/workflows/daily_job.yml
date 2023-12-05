@@ -24,3 +24,7 @@ jobs:
 
     - name: Running cron job
       run: go run main.go
+      env: 
+        DING_ACCESS_TOKEN: ${{ secrets.DING_ACCESS_TOKEN }}
+        DING_SECRET: ${{ secrets.DING_SECRET }}
+        JU_HE_KEY: ${{ secrets.JU_HE_KEY }}
