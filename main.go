@@ -60,11 +60,11 @@ var duty = map[time.Weekday]group{
 		devrels:  []string{"13161354391"},
 	},
 	time.Tuesday: {
-		engineer: []string{"18088642209"},
+		engineer: []string{"18088642209", "15511340988"},
 		devrels:  []string{"15354874060"},
 	},
 	time.Wednesday: {
-		engineer: []string{"17600686802"},
+		engineer: []string{"17600686802", "15294561913"},
 		devrels:  []string{"17624047637"},
 	},
 	time.Thursday: {
@@ -72,7 +72,7 @@ var duty = map[time.Weekday]group{
 		devrels:  []string{"13161354391"},
 	},
 	time.Friday: {
-		engineer: []string{"18501154050"},
+		engineer: []string{"18501154050", "18332559886"},
 		devrels:  []string{"15354874060"},
 	},
 }
