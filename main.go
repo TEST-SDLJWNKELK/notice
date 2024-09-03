@@ -57,23 +57,23 @@ func send(t time.Time) {
 var duty = map[time.Weekday]group{
 	time.Monday: {
 		engineer: []string{"18434391952", "13265162439"},
-		devrels:  []string{"13161354391", "13947237386", "18013515159"},
+		devrels:  []string{"13161354391"},
 	},
 	time.Tuesday: {
 		engineer: []string{"18088642209"},
-		devrels:  []string{"13947237386", "18946520537", "15354874060"},
+		devrels:  []string{"15354874060"},
 	},
 	time.Wednesday: {
 		engineer: []string{"17600686802"},
-		devrels:  []string{"18946520537", "17624047637", "18013515159"},
+		devrels:  []string{"17624047637"},
 	},
 	time.Thursday: {
 		engineer: []string{"15901359231", "18346072982"},
-		devrels:  []string{"17624047637", "13947237386", "15354874060"},
+		devrels:  []string{"13161354391"},
 	},
 	time.Friday: {
 		engineer: []string{"18501154050"},
-		devrels:  []string{"13161354391", "18946520537", "15354874060"},
+		devrels:  []string{"15354874060"},
 	},
 }
 
